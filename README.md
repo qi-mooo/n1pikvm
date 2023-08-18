@@ -35,7 +35,7 @@ nano /boot/uEnv.txt
 ```
 FDT=/dtb/amlogic/n1.dtb
 ```
-拉取 fruity-pikvm
+拉取 [fruity-pikvm](https://github.com/jacobbar/fruity-pikvm)
 ```
 git clone https://github.com/jacobbar/fruity-pikvm
 ```
