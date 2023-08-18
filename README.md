@@ -83,4 +83,4 @@ systemctl restart kvmd kvmd-nginx
 ## 接口说明
 靠近 N1 HDMI 接口的 USB 连接双公头 USB 连接线，远离 HDMI 的接口的 USB 连接 MS2109 采集卡。
 ## 一些总结
-fruity-pikvm 的安装脚本几乎可以在任何设备上安装 pikvm，比如随身 WiFi 但可能无法使用虚拟光驱，并且随身 WiFi 还需要加上一块USB扩展板，好处是随身 WiFi 它可以使用 4G 上网，使用 frp 等工具穿透，可以在你远程把家里网络搞坏的时候连接修复，并且一块 18650 电池就可以当 ups 续航很久，大小也比 n1 小得多可以塞入机箱内部，安装的设备内存推荐至少大于 512m，内存的大小与控制的流畅度相关，如果设备无法 otg 还可以使用 Arduino + [open-ip-kvm](https://github.com/Nihiue/open-ip-kvm)方案，更多玩法还等着你发掘。
+fruity-pikvm 的安装脚本几乎可以在任何设备上安装 pikvm，比如随身 WiFi 但可能无法使用虚拟光驱，并且随身 WiFi 还需要加上一块 USB 扩展板，好处是随身 WiFi 它可以使用 4G 上网，使用 frp 等工具穿透，可以在你远程把家里网络搞坏的时候连接修复，并且一块 18650 电池就可以当 ups 续航很久，大小也比 n1 小得多可以塞入机箱内部，安装的设备内存推荐至少大于 512m，内存的大小与控制的流畅度相关，如果设备无法 otg 还可以使用 Arduino + [open-ip-kvm](https://github.com/Nihiue/open-ip-kvm) 方案，更多玩法还等着你发掘。
