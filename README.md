@@ -15,7 +15,7 @@ dtc -I dtb -O dts -o n1.dts /boot/dtb/amlogic/meson-gxl-s905d-phicomm-n1.dtb
 ```
 dr_mode = "host";
 ```
-把 host 模式为 peripheral 模式，开启 n1 的 otg 功能。
+把 host 模式修改为 peripheral 模式，开启 n1 的 otg 功能。
 ```
 peripheral
 ```
